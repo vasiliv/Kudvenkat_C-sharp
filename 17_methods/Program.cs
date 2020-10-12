@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 // ამობეჭდავს ლუწ ციფრებს
 
 
-namespace _17_methods
+namespace _16_methods
 {
     class Program
     {
