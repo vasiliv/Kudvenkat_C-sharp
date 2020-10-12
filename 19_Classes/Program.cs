@@ -30,8 +30,13 @@ namespace _19_Classes
     {
         static void Main(string[] args)
         {
-            Customer customer = new Customer();
-            customer.PrintCustomer();
+            Customer customer1 = new Customer();
+            customer1.PrintCustomer();
+
+            // მაგრამ აგრეთვე მუშაობს user defined კონსტრუქტორი 
+            Customer customer2 = new Customer("Perte", "Ivanishvili");
+            customer2.PrintCustomer();
+
             Console.ReadLine();
         }
     }
