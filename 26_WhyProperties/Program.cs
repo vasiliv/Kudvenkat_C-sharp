@@ -26,13 +26,36 @@ namespace _26_WhyProperties
         }
         public int GetId()
         {
-            return _id;
+            return this._id;
+        }
+        public void SetName(string name)
+        {
+            if (string.IsNullOrEmpty(name))
+            {
+                throw new Exception("null");
+            }
+            else
+            {
+                this._name = name;
+            }
+        }
+        public string GetName()
+        {
+            return this._name;
         }
     }
     class Program
     {
         static void Main(string[] args)
         {
+            Student student = new Student();
+            //student.SetId(-10);
+            student.SetId(10);
+            Console.WriteLine("Student id = {0}", student.GetId());
+            //student.SetName(null);
+            student.SetName("Vaso");
+            Console.WriteLine("Student name = {0}", student.GetName());
+            Console.ReadLine();
         }
     }
 }
