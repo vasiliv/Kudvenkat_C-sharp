@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "21_Inheritance", "21_Inheri
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "26_WhyProperties", "26_WhyProperties\26_WhyProperties.csproj", "{38B0F62F-42D5-48BA-8F56-270363DA27EC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "27_Properties", "27_Properties\27_Properties.csproj", "{28E68155-CBC4-4B4C-A8CB-7733ECA65560}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{38B0F62F-42D5-48BA-8F56-270363DA27EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{38B0F62F-42D5-48BA-8F56-270363DA27EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{38B0F62F-42D5-48BA-8F56-270363DA27EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28E68155-CBC4-4B4C-A8CB-7733ECA65560}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28E68155-CBC4-4B4C-A8CB-7733ECA65560}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28E68155-CBC4-4B4C-A8CB-7733ECA65560}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28E68155-CBC4-4B4C-A8CB-7733ECA65560}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
