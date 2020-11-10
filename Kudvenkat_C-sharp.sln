@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "37_DelegatesUsage", "37_Del
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "39_MulticastDelegates", "39_MulticastDelegates\39_MulticastDelegates.csproj", "{CC0D04CF-22AF-45E9-804A-1D4D496A3E4F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "45_WhyEnums", "45_WhyEnums\45_WhyEnums.csproj", "{F2F4211C-AB48-401F-830C-1DFFFFFF128F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{CC0D04CF-22AF-45E9-804A-1D4D496A3E4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CC0D04CF-22AF-45E9-804A-1D4D496A3E4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CC0D04CF-22AF-45E9-804A-1D4D496A3E4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2F4211C-AB48-401F-830C-1DFFFFFF128F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2F4211C-AB48-401F-830C-1DFFFFFF128F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2F4211C-AB48-401F-830C-1DFFFFFF128F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2F4211C-AB48-401F-830C-1DFFFFFF128F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
