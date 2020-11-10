@@ -33,7 +33,6 @@ namespace _45_WhyEnums
                 Gender = 2
             };
 
-
             foreach (Customer cust in customers)
             {
                 Console.WriteLine("Name = {0} Gender = {1}", cust.Name, cust.GetGender(cust.Gender));
@@ -51,15 +50,35 @@ namespace _45_WhyEnums
             switch (gender)
             {
                 case 0:
-                    return ("Unknown");                    
+                    return ("Unknown");
                 case 1:
-                    return ("Male");                    
+                    return ("Male");
                 case 2:
                     return ("Female");
                 default:
                     return ("No such a value");
             }
         }
+        //public string GetGender(CheckGender gender)
+        //{
+        //    switch (gender)
+        //    {
+        //        case CheckGender.Unknown:
+        //            return ("Unknown");
+        //        case CheckGender.Male:
+        //            return ("Male");
+        //        case CheckGender.Female:
+        //            return ("Female");
+        //        default:
+        //            return ("No such a value");
+        //    }
+        //}
+        //public enum CheckGender
+        //{
+        //    Unknown = 0,
+        //    Male = 1,
+        //    Female = 2
+        //}
     }
 
 }
